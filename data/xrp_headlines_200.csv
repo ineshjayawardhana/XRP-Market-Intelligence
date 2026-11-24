@@ -1,0 +1,201 @@
+date,headline,source,label
+2025-01-01T00:00:00+00:00,XRPL developer releases production-ready payment gateway integration,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-02T00:00:00+00:00,Report discusses: xRPL developer releases production-ready payment gateway integration,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-03T00:00:00+00:00,Regional remittance provider pilots XRP Ledger settlement service,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-04T00:00:00+00:00,Report discusses: regional remittance provider pilots XRP Ledger settlement service,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-05T00:00:00+00:00,Enterprise software team integrates XRPL payment confirmations,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-06T00:00:00+00:00,Report discusses: enterprise software team integrates XRPL payment confirmations,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-07T00:00:00+00:00,New wallet provider adds XRP Ledger transaction support,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-08T00:00:00+00:00,Report discusses: new wallet provider adds XRP Ledger transaction support,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-09T00:00:00+00:00,Payment startup tests cross-border transfers on XRPL,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-10T00:00:00+00:00,Report discusses: payment startup tests cross-border transfers on XRPL,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-11T00:00:00+00:00,Open-source team publishes an audited XRPL integration library,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-12T00:00:00+00:00,Report discusses: open-source team publishes an audited XRPL integration library,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-13T00:00:00+00:00,Fintech firm connects customer payout system to XRP Ledger,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-14T00:00:00+00:00,Report discusses: fintech firm connects customer payout system to XRP Ledger,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-15T00:00:00+00:00,Blockchain infrastructure provider expands XRPL node capacity,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-16T00:00:00+00:00,Report discusses: blockchain infrastructure provider expands XRPL node capacity,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-17T00:00:00+00:00,Merchant service launches XRP Ledger invoice settlement option,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-18T00:00:00+00:00,Report discusses: merchant service launches XRP Ledger invoice settlement option,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-19T00:00:00+00:00,International payment processor completes XRPL technical pilot,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-20T00:00:00+00:00,Report discusses: international payment processor completes XRPL technical pilot,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-21T00:00:00+00:00,University research team deploys an XRPL verification prototype,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-22T00:00:00+00:00,Report discusses: university research team deploys an XRPL verification prototype,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-23T00:00:00+00:00,Digital asset custodian announces support for XRPL accounts,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-24T00:00:00+00:00,Report discusses: digital asset custodian announces support for XRPL accounts,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-25T00:00:00+00:00,Payments company adds XRP Ledger to supported networks,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-26T00:00:00+00:00,Report discusses: payments company adds XRP Ledger to supported networks,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-27T00:00:00+00:00,Institutional custody platform integrates RLUSD token support,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-28T00:00:00+00:00,Report discusses: institutional custody platform integrates RLUSD token support,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-29T00:00:00+00:00,Banking technology vendor tests token transfers on XRPL,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-30T00:00:00+00:00,Report discusses: banking technology vendor tests token transfers on XRPL,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-01-31T00:00:00+00:00,Regulated service provider launches an XRPL wallet feature,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-01T00:00:00+00:00,Report discusses: regulated service provider launches an XRPL wallet feature,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-02T00:00:00+00:00,Remittance application expands XRP Ledger payout functionality,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-03T00:00:00+00:00,Report discusses: remittance application expands XRP Ledger payout functionality,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-04T00:00:00+00:00,Developer tools project releases XRPL monitoring dashboard,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-05T00:00:00+00:00,Report discusses: developer tools project releases XRPL monitoring dashboard,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-06T00:00:00+00:00,Retail payment processor deploys an XRPL checkout plugin,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-07T00:00:00+00:00,Report discusses: retail payment processor deploys an XRPL checkout plugin,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-08T00:00:00+00:00,Corporate treasury software supports XRPL transaction tracking,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-09T00:00:00+00:00,Report discusses: corporate treasury software supports XRPL transaction tracking,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-10T00:00:00+00:00,Financial infrastructure startup launches XRPL test integration,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-11T00:00:00+00:00,Report discusses: financial infrastructure startup launches XRPL test integration,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-12T00:00:00+00:00,Tokenization project deploys assets using XRP Ledger technology,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-13T00:00:00+00:00,Report discusses: tokenization project deploys assets using XRP Ledger technology,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-14T00:00:00+00:00,Audited smart payment adapter supports XRPL transactions,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-15T00:00:00+00:00,Report discusses: audited smart payment adapter supports XRPL transactions,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-16T00:00:00+00:00,API platform adds validated XRP Ledger transaction indexing,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-17T00:00:00+00:00,Report discusses: aPI platform adds validated XRP Ledger transaction indexing,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-18T00:00:00+00:00,Ledger infrastructure provider launches XRPL archival nodes,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-19T00:00:00+00:00,Report discusses: ledger infrastructure provider launches XRPL archival nodes,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-20T00:00:00+00:00,Payment network connects a new XRPL settlement corridor,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-21T00:00:00+00:00,Report discusses: payment network connects a new XRPL settlement corridor,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-22T00:00:00+00:00,Business wallet platform supports multisignature XRPL accounts,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-23T00:00:00+00:00,Report discusses: business wallet platform supports multisignature XRPL accounts,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-24T00:00:00+00:00,Fintech integrator publishes a working XRPL settlement connector,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-25T00:00:00+00:00,Report discusses: fintech integrator publishes a working XRPL settlement connector,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-26T00:00:00+00:00,Cross-border payroll platform pilots XRPL transfers,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-27T00:00:00+00:00,Report discusses: cross-border payroll platform pilots XRPL transfers,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-02-28T00:00:00+00:00,Digital identity prototype writes verification records to XRPL,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-01T00:00:00+00:00,Report discusses: digital identity prototype writes verification records to XRPL,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-02T00:00:00+00:00,Payment aggregator integrates XRPL transaction status alerts,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-03T00:00:00+00:00,Report discusses: payment aggregator integrates XRPL transaction status alerts,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-04T00:00:00+00:00,Merchant accounting software adds XRP Ledger reconciliation,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-05T00:00:00+00:00,Report discusses: merchant accounting software adds XRP Ledger reconciliation,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-06T00:00:00+00:00,Custody software vendor supports XRPL token balances,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-07T00:00:00+00:00,Report discusses: custody software vendor supports XRPL token balances,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-08T00:00:00+00:00,Logistics platform pilots XRP Ledger payment verification,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-09T00:00:00+00:00,Report discusses: logistics platform pilots XRP Ledger payment verification,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-10T00:00:00+00:00,Blockchain analytics provider expands XRPL data coverage,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-11T00:00:00+00:00,Report discusses: blockchain analytics provider expands XRPL data coverage,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-12T00:00:00+00:00,Payment operations team tests RLUSD settlement workflows,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-13T00:00:00+00:00,Report discusses: payment operations team tests RLUSD settlement workflows,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-14T00:00:00+00:00,Institutional wallet vendor adds secure XRPL signing feature,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-15T00:00:00+00:00,Report discusses: institutional wallet vendor adds secure XRPL signing feature,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-16T00:00:00+00:00,Open-source contributor releases XRPL developer SDK update,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-17T00:00:00+00:00,Report discusses: open-source contributor releases XRPL developer SDK update,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-18T00:00:00+00:00,Billing service integrates XRP Ledger payment references,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-19T00:00:00+00:00,Report discusses: billing service integrates XRP Ledger payment references,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-20T00:00:00+00:00,Cross-border fintech consortium completes XRPL pilot program,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-21T00:00:00+00:00,Report discusses: cross-border fintech consortium completes XRPL pilot program,SYNTHETIC_TRAINING_EXAMPLE,Real_Adoption
+2025-03-22T00:00:00+00:00,XRP will reach 1000 dollars tomorrow according to viral prediction,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-03-23T00:00:00+00:00,Report discusses: xRP will reach 1000 dollars tomorrow according to viral prediction,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-03-24T00:00:00+00:00,Social media claims XRP is guaranteed to skyrocket tonight,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-03-25T00:00:00+00:00,Report discusses: social media claims XRP is guaranteed to skyrocket tonight,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-03-26T00:00:00+00:00,Influencer says XRP will make every holder a millionaire,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-03-27T00:00:00+00:00,Report discusses: influencer says XRP will make every holder a millionaire,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-03-28T00:00:00+00:00,Viral post predicts XRP price explosion without evidence,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-03-29T00:00:00+00:00,Report discusses: viral post predicts XRP price explosion without evidence,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-03-30T00:00:00+00:00,XRP to 625 dollars soon says anonymous online account,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-03-31T00:00:00+00:00,Report discusses: xRP to 625 dollars soon says anonymous online account,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-01T00:00:00+00:00,Traders online call XRP the next guaranteed 100x coin,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-02T00:00:00+00:00,Report discusses: traders online call XRP the next guaranteed 100x coin,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-03T00:00:00+00:00,Unverified rumor says XRP will moon before midnight,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-04T00:00:00+00:00,Report discusses: unverified rumor says XRP will moon before midnight,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-05T00:00:00+00:00,Influencer predicts unstoppable XRP rally this weekend,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-06T00:00:00+00:00,Report discusses: influencer predicts unstoppable XRP rally this weekend,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-07T00:00:00+00:00,Speculative post claims an XRP mega pump is inevitable,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-08T00:00:00+00:00,Report discusses: speculative post claims an XRP mega pump is inevitable,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-09T00:00:00+00:00,Online personality announces secret XRP price target,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-10T00:00:00+00:00,Report discusses: online personality announces secret XRP price target,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-11T00:00:00+00:00,Rumor claims a celebrity will send XRP prices to the moon,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-12T00:00:00+00:00,Report discusses: rumor claims a celebrity will send XRP prices to the moon,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-13T00:00:00+00:00,Anonymous chart screenshot predicts XRP price multiplication,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-14T00:00:00+00:00,Report discusses: anonymous chart screenshot predicts XRP price multiplication,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-15T00:00:00+00:00,Viral message tells followers that XRP gains are guaranteed,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-16T00:00:00+00:00,Report discusses: viral message tells followers that XRP gains are guaranteed,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-17T00:00:00+00:00,Meme account posts XRP rocket countdown and price target,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-18T00:00:00+00:00,Report discusses: meme account posts XRP rocket countdown and price target,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-19T00:00:00+00:00,XRP holders urged to get rich quick by social media thread,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-20T00:00:00+00:00,Report discusses: xRP holders urged to get rich quick by social media thread,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-21T00:00:00+00:00,Unconfirmed whisper predicts XRP becoming world's top asset,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-22T00:00:00+00:00,Report discusses: unconfirmed whisper predicts XRP becoming world's top asset,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-23T00:00:00+00:00,Viral claim says XRP cannot fall after next announcement,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-24T00:00:00+00:00,Report discusses: viral claim says XRP cannot fall after next announcement,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-25T00:00:00+00:00,Influencer expects triple-digit XRP price overnight,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-26T00:00:00+00:00,Report discusses: influencer expects triple-digit XRP price overnight,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-27T00:00:00+00:00,Unverified XRP supply shock rumor sparks price speculation,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-28T00:00:00+00:00,Report discusses: unverified XRP supply shock rumor sparks price speculation,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-29T00:00:00+00:00,Meme trend says XRP will outperform every asset tomorrow,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-04-30T00:00:00+00:00,Report discusses: meme trend says XRP will outperform every asset tomorrow,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-01T00:00:00+00:00,Speculative video promises life-changing XRP profit within days,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-02T00:00:00+00:00,Report discusses: speculative video promises life-changing XRP profit within days,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-03T00:00:00+00:00,Online forum claims XRP rally will never reverse,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-04T00:00:00+00:00,Report discusses: online forum claims XRP rally will never reverse,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-05T00:00:00+00:00,Anonymous account calls XRP a risk-free investment,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-06T00:00:00+00:00,Report discusses: anonymous account calls XRP a risk-free investment,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-07T00:00:00+00:00,Viral XRP moon prediction spreads without named sources,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-08T00:00:00+00:00,Report discusses: viral XRP moon prediction spreads without named sources,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-09T00:00:00+00:00,Social media hype urges everyone to buy XRP immediately,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-10T00:00:00+00:00,Report discusses: social media hype urges everyone to buy XRP immediately,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-11T00:00:00+00:00,Rumor of a secret XRP partnership fuels wild target claims,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-12T00:00:00+00:00,Report discusses: rumor of a secret XRP partnership fuels wild target claims,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-13T00:00:00+00:00,Influencer says XRP is certain to jump 500 percent tomorrow,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-14T00:00:00+00:00,Report discusses: influencer says XRP is certain to jump 500 percent tomorrow,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-15T00:00:00+00:00,Unverified XRP ETF rumor sparks sensational price forecasts,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-16T00:00:00+00:00,Report discusses: unverified XRP ETF rumor sparks sensational price forecasts,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-17T00:00:00+00:00,Online prediction expects XRP to reach 100 dollars instantly,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-18T00:00:00+00:00,Report discusses: online prediction expects XRP to reach 100 dollars instantly,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-19T00:00:00+00:00,Meme community starts XRP to the moon countdown,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-20T00:00:00+00:00,Report discusses: meme community starts XRP to the moon countdown,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-21T00:00:00+00:00,Clickbait headline forecasts a guaranteed XRP supercycle,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-22T00:00:00+00:00,Report discusses: clickbait headline forecasts a guaranteed XRP supercycle,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-23T00:00:00+00:00,Speculative post calls XRP the easiest way to get rich,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-24T00:00:00+00:00,Report discusses: speculative post calls XRP the easiest way to get rich,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-25T00:00:00+00:00,Anonymous analyst predicts XRP 50x move in one day,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-26T00:00:00+00:00,Report discusses: anonymous analyst predicts XRP 50x move in one day,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-27T00:00:00+00:00,Viral social post claims XRP has zero downside risk,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-28T00:00:00+00:00,Report discusses: viral social post claims XRP has zero downside risk,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-29T00:00:00+00:00,FOMO message urges buying XRP before a rumored surprise,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-30T00:00:00+00:00,Report discusses: fOMO message urges buying XRP before a rumored surprise,SYNTHETIC_TRAINING_EXAMPLE,Hype_Speculation
+2025-05-31T00:00:00+00:00,XRPL infrastructure outage delays transaction processing,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-01T00:00:00+00:00,Report discusses: xRPL infrastructure outage delays transaction processing,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-02T00:00:00+00:00,Security researchers discover critical flaw in XRP wallet software,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-03T00:00:00+00:00,Report discusses: security researchers discover critical flaw in XRP wallet software,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-04T00:00:00+00:00,Regulatory investigation creates uncertainty for XRP-related firm,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-05T00:00:00+00:00,Report discusses: regulatory investigation creates uncertainty for XRP-related firm,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-06T00:00:00+00:00,Exchange suspends XRP withdrawals during technical incident,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-07T00:00:00+00:00,Report discusses: exchange suspends XRP withdrawals during technical incident,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-08T00:00:00+00:00,Court filing adds legal uncertainty to XRP market outlook,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-09T00:00:00+00:00,Report discusses: court filing adds legal uncertainty to XRP market outlook,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-10T00:00:00+00:00,Phishing campaign targets holders of XRP Ledger assets,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-11T00:00:00+00:00,Report discusses: phishing campaign targets holders of XRP Ledger assets,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-12T00:00:00+00:00,Network congestion slows XRP Ledger transaction confirmations,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-13T00:00:00+00:00,Report discusses: network congestion slows XRP Ledger transaction confirmations,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-14T00:00:00+00:00,Major wallet bug leads provider to pause XRP transfers,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-15T00:00:00+00:00,Report discusses: major wallet bug leads provider to pause XRP transfers,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-16T00:00:00+00:00,Regulator raises compliance concerns over digital asset service,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-17T00:00:00+00:00,Report discusses: regulator raises compliance concerns over digital asset service,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-18T00:00:00+00:00,False XRP partnership statement triggers public correction,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-19T00:00:00+00:00,Report discusses: false XRP partnership statement triggers public correction,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-20T00:00:00+00:00,Exchange delists XRP trading pair following compliance review,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-21T00:00:00+00:00,Report discusses: exchange delists XRP trading pair following compliance review,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-22T00:00:00+00:00,Audit identifies security issues in third-party XRPL software,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-23T00:00:00+00:00,Report discusses: audit identifies security issues in third-party XRPL software,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-24T00:00:00+00:00,XRP market declines after negative regulatory headlines,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-25T00:00:00+00:00,Report discusses: xRP market declines after negative regulatory headlines,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-26T00:00:00+00:00,Service interruption affects XRP payment gateway users,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-27T00:00:00+00:00,Report discusses: service interruption affects XRP payment gateway users,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-28T00:00:00+00:00,Institutional pilot using XRPL is canceled after review,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-29T00:00:00+00:00,Report discusses: institutional pilot using XRPL is canceled after review,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-06-30T00:00:00+00:00,Fake XRP giveaway scam prompts investor safety warning,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-01T00:00:00+00:00,Report discusses: fake XRP giveaway scam prompts investor safety warning,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-02T00:00:00+00:00,Liquidity provider reports disruption in XRP market making,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-03T00:00:00+00:00,Report discusses: liquidity provider reports disruption in XRP market making,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-04T00:00:00+00:00,Legal dispute creates additional uncertainty for XRP services,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-05T00:00:00+00:00,Report discusses: legal dispute creates additional uncertainty for XRP services,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-06T00:00:00+00:00,Trading platform reports prolonged outage on XRP markets,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-07T00:00:00+00:00,Report discusses: trading platform reports prolonged outage on XRP markets,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-08T00:00:00+00:00,Exploit disclosure raises concerns for XRPL ecosystem tools,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-09T00:00:00+00:00,Report discusses: exploit disclosure raises concerns for XRPL ecosystem tools,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-10T00:00:00+00:00,Compliance rules force payment company to suspend XRP product,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-11T00:00:00+00:00,Report discusses: compliance rules force payment company to suspend XRP product,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-12T00:00:00+00:00,XRPL integration rollout delayed by engineering problems,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-13T00:00:00+00:00,Report discusses: xRPL integration rollout delayed by engineering problems,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-14T00:00:00+00:00,Financial watchdog warns about misleading XRP promotions,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-15T00:00:00+00:00,Report discusses: financial watchdog warns about misleading XRP promotions,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-16T00:00:00+00:00,Suspicious token activity triggers XRPL service investigation,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-17T00:00:00+00:00,Report discusses: suspicious token activity triggers XRPL service investigation,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-18T00:00:00+00:00,Technical defect temporarily disables XRP wallet transactions,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD
+2025-07-19T00:00:00+00:00,Report discusses: technical defect temporarily disables XRP wallet transactions,SYNTHETIC_TRAINING_EXAMPLE,Negative_FUD

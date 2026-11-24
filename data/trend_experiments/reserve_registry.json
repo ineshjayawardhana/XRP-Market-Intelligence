@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "protocol_sha256": "9330233979f1bae2a7121b83dd99b0061e9b166d3e66faa1022ee3e612701151",
+      "start": "2024-05-01T00:00:00Z",
+      "end": "2024-11-01T00:00:00Z",
+      "status": "superseded_unopened",
+      "reserved_at": "2026-11-15T17:37:31.408254+00:00",
+      "reason": "Public Binance XRPUSDT 2023-03-24T13:00Z candle absent; strict collection stopped before development datasets, model fits, selection or reserve labels. Amend data-quality handling to retain gap and restart contiguous feature/target segments; fixed grid, candidate settings and reserve dates remain unchanged.",
+      "superseded_at": "2026-11-15T17:44:08.392295+00:00"
+    },
+    {
+      "protocol_sha256": "71ca147f34e19541c803721948141e299a1eb385ee5a773c46b89b3867934606",
+      "start": "2024-05-01T00:00:00Z",
+      "end": "2024-11-01T00:00:00Z",
+      "status": "superseded_unopened",
+      "reserved_at": "2026-11-15T17:48:57.756831+00:00",
+      "reason": "Public source data also contains partial candle2023-03-24T12:00Z ending12:39:48.301Z. Dataset validation stopped before any feature dataset, model fitting, selection or final labels. Exclude this incomplete hourly bar and reset segments; unchanged features, tuning grids, objectives and fixed reserve dates.",
+      "superseded_at": "2026-11-15T17:54:11.937734+00:00"
+    },
+    {
+      "protocol_sha256": "bb1462a533962b5fa1b88815de04dad585d4b3514ad1ecc5bc693386aeda698e",
+      "start": "2024-05-01T00:00:00Z",
+      "end": "2024-11-01T00:00:00Z",
+      "status": "evaluated",
+      "reserved_at": "2026-11-15T17:54:24.474392+00:00",
+      "selection_spec_sha256": "e8d98834942bac42353a20d52c25d9f94d7e9c0f4d63162b9bf5d0dc7b5f3346",
+      "model_sha256": "f0f9f5449158a9a4a18b7f41736b40dd5fa0463dabe6132b1e01f05f1b729bbe",
+      "raw_cache_sha256": "aebc575e014ff427b30e2948c57380afea22342c2ebfccdcaa8e6184e3f8f654",
+      "development_sha256": "6d3a2465f3b23c7130e82434ad551362c74745387a64b39655f30576fa725368",
+      "opened_at": "2026-11-15T17:56:52.107594+00:00",
+      "report_sha256": "c9f8174e3bb0dac92b139162fd332ddd10c8e88431f024e006f3f117916cf8eb",
+      "result_path": "artifacts\\trend_experiments\\bb1462a533962b5f\\report.json"
+    }
+  ]
+}

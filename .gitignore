@@ -1,0 +1,65 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+artifacts/*.joblib
+artifacts/distilbert_news/
+artifacts/distilbert_checkpoints/
+data/news_history.sqlite3
+data/xrp_real_news_unlabeled.csv
+data/xrp_real_labeled.csv
+data/real_news_test_predictions.csv
+reports/
+data/backups/
+data/.ai_labeling.lock
+data/xrp_ai_suggestions.csv
+data/xrp_ai_proposals.json
+data/xrp_article_context.json
+data/xrp_human_reviews.csv
+data/xrp_auto_labeled.csv
+data/xrp_batch_review.csv
+data/xrp_batch_decisions_template.csv
+data/xrp_batch_summary.json
+data/xrp_batch_report.md
+data/training_prepared/
+data/my_batch_decisions.csv
+data/multisource/
+data/dashboard_cache/
+data/trend/
+artifacts/trend_runs/
+data/paper_trading/
+data/live_news/
+
+
+# Additional Secrets Protection
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# All Local Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Trained ML Models
+*.joblib
+*.pkl
+*.pickle
+
+# Large Research Data
+*.parquet
+*.feather
+
+# Temporary Files
+*.log
+*.bak
+.pytest_cache/
+
+
+# Generated research experiments
+artifacts/trend_1h_runs/
+artifacts/trend_experiments/
+
+# Historical market data caches
+data/trend_1h/cache/
+data/trend_experiments/cache/

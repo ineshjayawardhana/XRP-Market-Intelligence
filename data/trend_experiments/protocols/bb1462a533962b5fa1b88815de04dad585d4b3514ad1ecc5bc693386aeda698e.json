@@ -1,0 +1,230 @@
+{
+  "protocol": {
+    "schema_version": 1,
+    "purpose": "isolated nested chronological model investigation",
+    "training_start": "2022-01-01T00:00:00Z",
+    "grid_anchor": "2022-01-01T00:59:59.999Z",
+    "reserve_start": "2024-05-01T00:00:00Z",
+    "reserve_end_exclusive": "2024-11-01T00:00:00Z",
+    "holdout_type": "newly_collected_historical_reserve_not_prospective",
+    "stride_hours": 25,
+    "horizon_hours": 24,
+    "outer_folds": 3,
+    "outer_test_origins": 60,
+    "inner_folds": 2,
+    "inner_test_origins": 45,
+    "calibration_origins": 45,
+    "final_calibration_held_out_from_selection": true,
+    "outer_calibration_held_out_from_inner_tuning": true,
+    "gap_policy": "Exclude non-standard/incomplete hourly candles; no filled candles; reset features and exclude warm-up and target windows at each contiguous-segment boundary.",
+    "selection": "highest pooled outer macro-F1, then lowest Brier; final hyperparameters from inner development only",
+    "grids": {
+      "LogisticRegression": [
+        {
+          "C": 0.1
+        },
+        {
+          "C": 0.5
+        },
+        {
+          "C": 2.0
+        }
+      ],
+      "RandomForest": [
+        {
+          "max_depth": 6,
+          "min_samples_leaf": 12
+        },
+        {
+          "max_depth": 4,
+          "min_samples_leaf": 24
+        }
+      ],
+      "HistGradientBoosting": [
+        {
+          "max_leaf_nodes": 7,
+          "learning_rate": 0.05,
+          "l2_regularization": 1.0
+        },
+        {
+          "max_leaf_nodes": 15,
+          "learning_rate": 0.05,
+          "l2_regularization": 5.0
+        }
+      ],
+      "ExtraTrees": [
+        {
+          "max_depth": 6,
+          "min_samples_leaf": 12
+        },
+        {
+          "max_depth": 10,
+          "min_samples_leaf": 24
+        }
+      ]
+    },
+    "feature_sets": {
+      "Base": [
+        "rsi",
+        "ema20_distance",
+        "ema50_distance",
+        "ema_gap",
+        "macd_relative",
+        "macd_signal_relative",
+        "macd_hist_relative",
+        "volume_change_1h",
+        "volume_change_24h",
+        "volume_relative_20h",
+        "return_1h",
+        "return_6h",
+        "return_12h",
+        "return_24h",
+        "return_72h",
+        "volatility_24h",
+        "volatility_72h",
+        "range_relative",
+        "body_relative",
+        "hour_sin",
+        "hour_cos"
+      ],
+      "Expanded": [
+        "rsi",
+        "ema20_distance",
+        "ema50_distance",
+        "ema_gap",
+        "macd_relative",
+        "macd_signal_relative",
+        "macd_hist_relative",
+        "volume_change_1h",
+        "volume_change_24h",
+        "volume_relative_20h",
+        "return_1h",
+        "return_6h",
+        "return_12h",
+        "return_24h",
+        "return_72h",
+        "volatility_24h",
+        "volatility_72h",
+        "range_relative",
+        "body_relative",
+        "hour_sin",
+        "hour_cos",
+        "return_1h_lag_1h",
+        "return_1h_lag_3h",
+        "return_1h_lag_6h",
+        "return_1h_lag_24h",
+        "return_3h",
+        "return_48h",
+        "return_168h",
+        "rsi_change_1h",
+        "rsi_change_6h",
+        "rsi_change_24h",
+        "ema_gap_change_1h",
+        "ema_gap_change_6h",
+        "ema_gap_change_24h",
+        "macd_hist_change_1h",
+        "macd_hist_change_6h",
+        "macd_hist_change_24h",
+        "volume_relative_24h",
+        "volume_relative_168h",
+        "volatility_6h",
+        "volatility_168h",
+        "volatility_ratio_24_168h",
+        "distance_high_24h",
+        "distance_low_24h",
+        "distance_high_168h",
+        "distance_low_168h",
+        "return_acceleration_1_6h",
+        "risk_adjusted_return_24h"
+      ]
+    },
+    "feature_version": "causal_expanded_v1",
+    "feature_groups": {
+      "base": [
+        "rsi",
+        "ema20_distance",
+        "ema50_distance",
+        "ema_gap",
+        "macd_relative",
+        "macd_signal_relative",
+        "macd_hist_relative",
+        "volume_change_1h",
+        "volume_change_24h",
+        "volume_relative_20h",
+        "return_1h",
+        "return_6h",
+        "return_12h",
+        "return_24h",
+        "return_72h",
+        "volatility_24h",
+        "volatility_72h",
+        "range_relative",
+        "body_relative",
+        "hour_sin",
+        "hour_cos"
+      ],
+      "lagged_returns": [
+        "return_1h_lag_1h",
+        "return_1h_lag_3h",
+        "return_1h_lag_6h",
+        "return_1h_lag_24h"
+      ],
+      "additional_momentum": [
+        "return_3h",
+        "return_48h",
+        "return_168h"
+      ],
+      "rsi_momentum": [
+        "rsi_change_1h",
+        "rsi_change_6h",
+        "rsi_change_24h"
+      ],
+      "ema_crossover_momentum": [
+        "ema_gap_change_1h",
+        "ema_gap_change_6h",
+        "ema_gap_change_24h"
+      ],
+      "macd_momentum": [
+        "macd_hist_change_1h",
+        "macd_hist_change_6h",
+        "macd_hist_change_24h"
+      ],
+      "relative_volume": [
+        "volume_relative_24h",
+        "volume_relative_168h"
+      ],
+      "additional_volatility": [
+        "volatility_6h",
+        "volatility_168h",
+        "volatility_ratio_24_168h"
+      ],
+      "historical_range": [
+        "distance_high_24h",
+        "distance_low_24h",
+        "distance_high_168h",
+        "distance_low_168h"
+      ],
+      "scaled_momentum": [
+        "return_acceleration_1_6h",
+        "risk_adjusted_return_24h"
+      ]
+    },
+    "fixed_settings": {
+      "tree_estimators": 200,
+      "hgb_iterations": 150,
+      "hgb_early_stopping": false,
+      "random_state": 42
+    },
+    "promotion_policy": "no automatic production replacement; existing quality policy plus consistent development gains and paired uncertainty checks",
+    "code_sha256": {
+      "trend_experiments.py": "d9c2971acaa26e9e78fd69c888101b5e644dec5dbafbb4f3e50ae328382391fb",
+      "trend_experiment_features.py": "2dfa61ee18b4d7c50da20cde54eedef916332b8d1443e8ace4fcaa6714843a3a",
+      "experiment_market_data.py": "3c3d57f0603cf986744d98446d20c8d3f33346fac9db929b525619bbd2197b84",
+      "trend_pipeline.py": "8ae1513ec3da2d42371231b58f75e5e2cd0a67ab7992c8369251a31eb6e81d6e",
+      "trend_metrics.py": "8b47332282e452c742113f096e86a7ee42c5c80a6259986d433e22fc2178890a"
+    }
+  },
+  "protocol_sha256": "bb1462a533962b5fa1b88815de04dad585d4b3514ad1ecc5bc693386aeda698e",
+  "frozen_at": "2026-11-15T17:54:24.466258+00:00",
+  "development_only": false
+}

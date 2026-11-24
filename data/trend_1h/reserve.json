@@ -1,0 +1,69 @@
+{
+  "status": "evaluated",
+  "protocol_hash": "31f33521c84db55e7961aef4f0f400399c794567fd9ddb56666cc52bdb00881c",
+  "plan": {
+    "task": "XRP_1H_DIRECTION",
+    "horizon_hours": 1,
+    "labels": [
+      "UP",
+      "DOWN",
+      "NEUTRAL"
+    ],
+    "start": "2018-06-01T00:00Z",
+    "training_start": "2018-07-01T00:00Z",
+    "test_start": "2021-01-01T00:00:00+00:00",
+    "test_end_exclusive": "2021-11-01T00:00:00+00:00",
+    "threshold": "symmetric +/- one-third quantile of absolute next-hour returns from classifier-training rows only",
+    "folds": 3,
+    "validation_days_per_fold": 60,
+    "calibration_days": 30,
+    "embargo": "earlier target_end strictly before next feature origin",
+    "features": [
+      "rsi",
+      "ema20_distance",
+      "ema50_distance",
+      "ema_gap",
+      "macd_relative",
+      "macd_signal_relative",
+      "macd_hist_relative",
+      "volume_change_1h",
+      "volume_change_24h",
+      "volume_relative_20h",
+      "return_1h",
+      "return_6h",
+      "return_12h",
+      "return_24h",
+      "return_72h",
+      "volatility_24h",
+      "volatility_72h",
+      "range_relative",
+      "body_relative",
+      "hour_sin",
+      "hour_cos"
+    ],
+    "families": [
+      "LogisticRegression",
+      "RandomForest",
+      "HistGradientBoosting",
+      "ExtraTrees"
+    ],
+    "selection": "pooled validation macro-F1, tie-break Brier; never test metrics",
+    "model_settings": {
+      "logistic_C": 0.5,
+      "tree_estimators": 200,
+      "tree_max_depth": 6,
+      "tree_min_leaf": 64,
+      "hgb_iterations": 100,
+      "hgb_leaves": 7,
+      "hgb_learning_rate": 0.05,
+      "hgb_l2": 5.0,
+      "early_stopping": false,
+      "seed": 42
+    },
+    "code_sha256": "d13097fa9285adc2d2e71e57f50a31438dc623bff3aef09dc15b352d5ec9d147",
+    "feature_source_sha256": "8ae1513ec3da2d42371231b58f75e5e2cd0a67ab7992c8369251a31eb6e81d6e",
+    "scope": "newly collected retrospective 2021 historical reserve, not prospective current-market validation"
+  },
+  "report_file": "artifacts\\trend_1h_runs\\xrp1h_20261116T072805203839Z\\report.json",
+  "report_sha256": "f1a80f8b8229e3407846281f313a5594b9aad2f4c6b721aa603cf86e2808cb11"
+}

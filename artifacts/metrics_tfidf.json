@@ -1,0 +1,55 @@
+{
+  "accuracy": 0.88,
+  "report": {
+    "Real_Adoption": {
+      "precision": 0.7692307692307693,
+      "recall": 1.0,
+      "f1-score": 0.8695652173913043,
+      "support": 20.0
+    },
+    "Hype_Speculation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 18.0
+    },
+    "Negative_FUD": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 12.0
+    },
+    "accuracy": 0.88,
+    "macro avg": {
+      "precision": 0.923076923076923,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8454106280193235,
+      "support": 50.0
+    },
+    "weighted avg": {
+      "precision": 0.9076923076923077,
+      "recall": 0.88,
+      "f1-score": 0.8678260869565217,
+      "support": 50.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      20,
+      0,
+      0
+    ],
+    [
+      0,
+      18,
+      0
+    ],
+    [
+      6,
+      0,
+      6
+    ]
+  ],
+  "test_examples": 50,
+  "warning": "Synthetic-data evaluation; not verified real-world accuracy."
+}

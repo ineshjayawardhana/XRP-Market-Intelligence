@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "pipeline": "xrp_chronological_trend_v2",
+  "task": "XRP_24H_DIRECTION",
+  "horizon_hours": 24,
+  "labels": [
+    "UP",
+    "DOWN",
+    "NEUTRAL"
+  ],
+  "model_version": "xrp24h_20261115T170231910490Z",
+  "model_file": "trend_runs/xrp24h_20261115T170231910490Z/model.joblib",
+  "model_sha256": "16ed98a44dd7fce1d82368a057510399c7e02d7ffbfa233056f30373c174e3d7",
+  "oos_predictions_file": "trend_runs/xrp24h_20261115T170231910490Z/holdout_predictions.csv",
+  "oos_predictions_sha256": "efa231fc819901ccc55b6aa2722e5cae099564bc99548f419f95d9abf23bd980",
+  "report_file": "trend_runs/xrp24h_20261115T170231910490Z/report.json",
+  "report_sha256": "c4792794d67ad3692b0ae8175126f907adb9b043cf8ebf2ee06eee67a64e10b5",
+  "dataset_file": "trend_runs/xrp24h_20261115T170231910490Z/supervised_origins.csv",
+  "dataset_sha256": "cff74c5dbf38e2386b129eb569542636649ecc5006b1f435f0dded5491c9207a",
+  "market_file": "trend_runs/xrp24h_20261115T170231910490Z/market_snapshot.csv",
+  "market_sha256": "d199e75b0f1c8628417e829220d7e0ac0e8ad146d7485d1f827d6cff0602d022",
+  "evaluation_type": "retrospective_replay",
+  "feature_signature": "ca01afa2ed5e7a0e4fc4118e46a7d8982b375ac3717e14e78ff76d498a66001e",
+  "evaluated_at": "2026-11-15T17:02:34.781520+00:00",
+  "test_samples": 175,
+  "train_end": "2026-03-29T14:59:59.999000+00:00",
+  "calibration_fit_end": "2026-05-15T11:59:59.999000+00:00",
+  "test_start": "2026-05-16T12:59:59.999000+00:00",
+  "test_end": "2026-11-13T18:59:59.999000+00:00",
+  "chronological_out_of_sample_passed": true,
+  "calibration_passed": true,
+  "quality_passed": false
+}

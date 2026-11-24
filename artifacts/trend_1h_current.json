@@ -1,0 +1,32 @@
+{
+  "task": "XRP_1H_DIRECTION",
+  "horizon_hours": 1,
+  "version": "xrp1h_20261116T072805203839Z",
+  "feature_signature": "a37cb2488bfe07402dfe4f7a7046da959a9f7514397c16955a543e5367a9376e",
+  "files": {
+    "model": {
+      "path": "artifacts\\trend_1h_runs\\xrp1h_20261116T072805203839Z\\model.joblib",
+      "sha256": "13edb69c533990aebefecaca5f06386ad439cb580f8a75e8917045e6d6e2e33a"
+    },
+    "report": {
+      "path": "artifacts\\trend_1h_runs\\xrp1h_20261116T072805203839Z\\report.json",
+      "sha256": "f1a80f8b8229e3407846281f313a5594b9aad2f4c6b721aa603cf86e2808cb11"
+    },
+    "test": {
+      "path": "artifacts\\trend_1h_runs\\xrp1h_20261116T072805203839Z\\test_dataset.csv",
+      "sha256": "2a88b4002c04ae3d5322eef66bf4cf970cca75fd4663d78b60dd2a2d711732b8"
+    },
+    "oos": {
+      "path": "artifacts\\trend_1h_runs\\xrp1h_20261116T072805203839Z\\oos.csv",
+      "sha256": "5d764a4e68d7dc7b738601617f7f49e5651d1f89800c79c4d11dcffb63eb92a6"
+    },
+    "market": {
+      "path": "artifacts\\trend_1h_runs\\xrp1h_20261116T072805203839Z\\market_snapshot.csv",
+      "sha256": "5d3c07aa11771723f2083c2e97dab68e04eeb86cc62007ef7849cfc92eb29300"
+    },
+    "development": {
+      "path": "artifacts\\trend_1h_runs\\xrp1h_20261116T072805203839Z\\development.csv",
+      "sha256": "dd1b7694f45dab7c1b4a91e2d4db40ea9208710452bad0303142384ff437f8f5"
+    }
+  }
+}
