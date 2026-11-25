@@ -1,155 +1,418 @@
+
 # XRP Market Intelligence Dashboard
 
-The current dashboard has beginner-friendly market/news views and a separate advanced research area. See [MARKET_INTELLIGENCE_README.md](MARKET_INTELLIGENCE_README.md) for current behavior, validation limits and the launch command. No retraining is required to open it. Existing collection, annotation and model research scripts remain available.
+A real-time XRP/USDT market intelligence dashboard combining **Machine Learning, Natural Language Processing (NLP), Technical Analysis, Live News Intelligence, and Paper Trading Simulation**.
 
-The separate [24-hour trend research pipeline](TREND_RESEARCH_README.md) now trains Logistic Regression and Random Forest on real historical market candles with purged chronological evaluation and calibration. Run `python train_trend_model.py --days 730`. The evaluated model remains experimental because its holdout balanced accuracy did not pass the documented display policy; forecast probabilities remain withheld. Opening the dashboard never starts training.
+> **Disclaimer:** This project is developed for educational and data science research purposes only. It does not execute real trades or provide verified financial predictions.
 
-**Research / educational dashboard only, not financial advice. Crypto is high risk.**
+## Project Overview
 
-This academic research prototype does not place orders, handle wallets, or predict an exact price.
-It classifies news headlines and summarizes observed technical conditions and past 24-hour
-outcomes. A signal is an unvalidated rule until independently backtested.
+XRP Market Intelligence is a Python-based data science project designed to analyze cryptocurrency market behavior using historical and live market data.
 
-## Folder guide (English + Sinhala)
+The system integrates machine learning models, technical indicators, and AI-assisted news classification into an interactive Streamlit dashboard.
 
-- `requirements.txt` — Python packages (`install karana libraries`).
-- `model.py` — Generates 200 **SYNTHETIC** labeled XRP example headlines and trains TF-IDF + Logistic Regression. Prints accuracy, classification report and confusion matrix. Optional DistilBERT training included.
-- `live_data.py` — Binance read-only API requests, one-hour candle features, RSI/EMAs/MACD, public RSS or authorized CryptoPanic headlines, SQLite archive, six-month backtest logic.
-- `app.py` — Streamlit market intelligence dashboard, four navigation views, 30-second auto-refresh in the active browser session; charts, news and update timestamps are shown in **Sri Lanka time (SLST, UTC+05:30)**.
-- `data/xrp_headlines_200.csv` — The 200 synthetic examples with `date,headline,source,label` (not real news).
-- `data/historical_news.csv` — Optional, real timestamped news archive you must provide for a genuine combined 6-month backtest. NOT included by default.
-- `artifacts/` — TF-IDF model and metrics generated when training.
-- `requirements-bert.txt` — Optional large transformer package dependencies.
-- `.env.example` — Optional CryptoPanic token and model backend.
-- `Project_Proposal.pdf` — One-page lecturer proposal.
+The main objective is to explore how data science, machine learning, and NLP can support financial market research.
 
-## Step-by-step: Windows 11 + PowerShell
+### Project Objectives
 
-1. Install **Python 3.11 or 3.12** if Python is not already installed. Open this extracted folder in VS Code.
-2. In VS Code choose **Terminal > New Terminal**. The terminal should be in the folder that contains `model.py`.
-3. Create virtual environment:
+- Collect and visualize real-time XRP market data.
+- Analyze historical cryptocurrency price movements.
+- Calculate and interpret technical indicators.
+- Classify XRP-related news using NLP.
+- Investigate short-term price movement patterns.
+- Evaluate machine learning models against baseline approaches.
+- Simulate virtual trading outcomes.
+- Build an interactive dashboard for market research.
 
-   ```powershell
-   py -m venv .venv
-   ```
+## Key Features
 
-4. Install packages (no PowerShell activation required):
+### 1. Real-Time XRP Market Dashboard
 
-   ```powershell
-   .\.venv\Scripts\python.exe -m pip install --upgrade pip
-   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-   ```
+- Live XRP/USDT price monitoring.
+- Binance API and WebSocket integration.
+- 24-hour price change, high, low, and volume.
+- Interactive price charts.
+- Multiple chart timeframes:
+  - 1 minute
+  - 5 minutes
+  - 15 minutes
+  - 1 hour
+- Data freshness monitoring.
+- Automatic reconnection and fallback handling.
 
-5. The existing classifier artifacts can be used as-is. The market dashboard also works when model files are absent. Do not retrain the production model until real-data readiness and chronological evaluation requirements are met. The bundled news classifier remains a synthetic teaching demonstration.
+### 2. Technical Analysis
 
-6. Start dashboard:
+The dashboard provides technical indicators, including:
 
-   ```powershell
-   .\.venv\Scripts\python.exe -m streamlit run app.py --server.port 8501 --server.address 127.0.0.1
-   ```
+| Indicator | Purpose |
+|---|---|
+| RSI | Measures price momentum |
+| EMA | Identifies moving price trends |
+| MACD | Examines momentum and trend changes |
+| Trading Volume | Measures trading activity |
+| Volume Spikes | Highlights unusual trading activity |
 
-   Streamlit should open `http://localhost:8501` in your browser. `Ctrl+C` stops it.
+These indicators support research and visualization. They do not guarantee future price movements.
 
-7. **Free no-key news:** The dashboard reads the existing real-news research corpus and polls permitted Cointelegraph and The Daily Hodl publisher RSS feeds. Source failures and archived publication dates are shown honestly. It does not bypass Google RSS robots restrictions.
-8. **Legacy collectors:** GDELT, optional Google RSS and authorized CryptoPanic support remain in the collection code. The dashboard uses the publisher feeds above. Never commit `.env` or API credentials to GitHub.
+### 3. Live XRP News Intelligence
 
-## Optional: Upgrade to DistilBERT
+The system collects XRP-related articles from configured public news sources.
 
-Only after the first four files work:
+Features include:
+
+- Automatic news polling approximately every five minutes while the application is running.
+- Manual news refresh.
+- Duplicate article prevention.
+- Persistent SQLite news storage.
+- Source-status monitoring.
+- Publication and collection timestamps.
+- Sri Lankan time display (SLST).
+- Stale-news warnings.
+- Automatic provisional news classification.
+
+News availability depends on publisher feeds, network connectivity, and source restrictions.
+
+### 4. AI-Assisted News Classification
+
+The NLP system categorizes news into four research classes:
+
+| Classification | Description |
+|---|---|
+| Real_Adoption | News concerning XRP adoption and real-world integrations |
+| Hype_Speculation | Speculative claims, rumors, and promotional headlines |
+| Negative_FUD | Negative or uncertainty-related market news |
+| Neutral_Market_News | General market information |
+
+The project includes:
+
+- TF-IDF feature extraction.
+- Logistic Regression classification.
+- Experimental transformer-based workflows.
+- Human-reviewed and AI-provisional label separation.
+- News data collection and research pipelines.
+
+AI-generated labels are provisional and should not be interpreted as verified facts.
+
+### 5. Experimental One-Hour Trend Analysis
+
+The project investigates XRP market direction over the next hour using historical market information.
+
+The experimental model uses three classes:
+
+- UP
+- DOWN
+- NEUTRAL
+
+Model development includes:
+
+- Historical candle collection.
+- Feature engineering.
+- Chronological evaluation.
+- Baseline comparisons.
+- Model performance reporting.
+
+#### Historical Experiment Results
+
+| Evaluation Metric | Reported Accuracy |
+|---|---:|
+| Experimental ML Model | 44.26% |
+| Majority-Class Baseline | 41.90% |
+| Technical-Rules Baseline | 32.69% |
+
+These are historical development results and have not been independently reproduced for the latest repository commit.
+
+**Important:** The model has not demonstrated reliable predictive performance. Its outputs are experimental research labels, not verified trading signals or calibrated probabilities.
+
+### 6. Historical Market Research
+
+The project contains research workflows for:
+
+- Historical XRP/USDT data collection.
+- Data cleaning and preprocessing.
+- Feature generation.
+- Market condition analysis.
+- Chronological model evaluation.
+- Historical outcome comparisons.
+- Experimental one-hour and 24-hour trend studies.
+
+The one-hour and 24-hour research pipelines are separate experiments and should not be interpreted as equivalent forecasts.
+
+### 7. Paper Trading Simulator
+
+The dashboard includes a virtual trading environment for educational testing.
+
+Features include:
+
+- Starting virtual balance of 100 USDT.
+- Simulated XRP spot positions.
+- Virtual position opening and closing.
+- Configurable trading fees.
+- Simulated slippage.
+- Virtual profit and loss calculations.
+- Persistent local trade history.
+- Model-signal comparison.
+
+**No real money, exchange orders, or cryptocurrency wallets are involved.**
+
+## Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| Dashboard | Streamlit |
+| Data Processing | pandas, NumPy |
+| Machine Learning | scikit-learn |
+| NLP | TF-IDF, Logistic Regression |
+| Experimental ML | Logistic Regression, Random Forest, HistGradientBoosting |
+| Visualization | Plotly |
+| Market Data | Binance Public API, WebSocket |
+| News Collection | Public RSS feeds |
+| Database | SQLite |
+| Version Control | Git, GitHub |
+| Testing | pytest |
+
+See `requirements.txt` for the actual project dependencies.
+
+## System Architecture
+
+```mermaid
+flowchart TD
+    A[Binance Market Data] --> B[Live Market Data Processing]
+    C[Public News Sources] --> D[News Collection and Deduplication]
+    D --> E[SQLite News Archive]
+    E --> F[NLP News Classification]
+    B --> G[Technical Indicators]
+    G --> H[Historical ML Research]
+    B --> I[Streamlit Dashboard]
+    F --> I
+    H --> I
+    I --> J[Virtual Paper Trading]
+    J --> K[Local Trade History]
+```
+
+This diagram represents the main components conceptually. Individual research workflows may use additional scripts and datasets.
+
+## Project Structure
+
+The repository contains the following main files:
+
+```text
+XRP-Market-Intelligence/
+|
+|-- app.py
+|-- model.py
+|-- live_data.py
+|-- streaming_market.py
+|-- live_market_ui.py
+|
+|-- live_news.py
+|-- live_news_sources.py
+|-- live_news_ui.py
+|
+|-- one_hour_trend.py
+|-- one_hour_ui.py
+|-- train_one_hour.py
+|
+|-- paper_trading.py
+|-- paper_trading_ui.py
+|
+|-- collect_real_news.py
+|-- collect_multisource_news.py
+|-- research_workflow.py
+|-- review_research_app.py
+|
+|-- data/
+|-- artifacts/
+|-- tests/
+|
+|-- requirements.txt
+|-- requirements-bert.txt
+|-- .env.example
+|-- .gitignore
+|-- README.md
+```
+
+Some generated research datasets, trained models, and local database files are intentionally excluded from GitHub.
+
+## Installation Guide
+
+### Prerequisites
+
+- Windows 11 or another compatible operating system.
+- Python 3.13 (used during local development).
+- Git.
+- Visual Studio Code or another Python IDE.
+- Internet access for public market and news feeds.
+
+### Step 1: Clone the Repository
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install -r requirements-bert.txt
-.\.venv\Scripts\python.exe model.py --train-distilbert
+git clone https://github.com/ineshjayawardhana/XRP-Market-Intelligence.git
+cd XRP-Market-Intelligence
 ```
 
-Set `MODEL_BACKEND=distilbert` inside `.env`, then restart Streamlit. This downloads
-pretrained model weights and requires more RAM/compute. The first classifier is easier
-for a beginner. A DistilBERT improvement is **not** guaranteed with 200 synthetic samples.
+### Step 2: Create a Virtual Environment
 
-## Timezone: Sri Lanka (SLST)
-
-The dashboard displays **Sri Lanka Standard Time, Asia/Colombo (UTC+05:30)** for:
-- Price chart and RSI horizontal time axis, including Plotly hover times.
-- News-event markers and their hover times on the price chart.
-- First-seen and published dates in the news-feed table.
-- Live ticker retrieval/last-updated text.
-
-The Binance API, SQLite news records, CSV historical-news inputs, and all backtest
-joins **remain in UTC** internally. The conversion happens only in `app.py` when
-displaying information. This prevents 5-hour-30-minute offsets in historical tests.
-
-## Six-month backtest — IMPORTANT
-
-**Price history is available directly from public Binance APIs**, so the technical-only
-baseline can be evaluated immediately. The combined news-price signal cannot be honestly
-backtested without **real dated headlines from that period**. The live news archive grows
-while the dashboard is open, but is not retrospectively six months long.
-
-To provide genuine historical news, create `data/historical_news.csv` with the header:
-
-```csv
-date,headline,source
+```powershell
+py -3.13 -m venv .venv
 ```
 
-One row per REAL dated news item. Use UTC ISO 8601 timestamps, e.g.
-`2026-08-01T12:00:00Z`. DO NOT copy synthetic training headlines into this file.
-Dates should be when the article was actually available to readers.
+Activate the environment:
 
-In **Advanced research**, choose a history window and press `Evaluate historical outcomes`. The real corpus uses its first-available timestamps. If `historical_news.csv` exists, an optional checkbox includes that legacy archive. When no matured matched headlines exist, the combined analysis reports that no samples are available.
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
 
-**Research choices:**
-- Price series: XRP/USDT Binance spot, **closed 1-hour candles**.
-- 24-hour return computed from the candle close to 24 subsequent hourly closes.
-- Outcome: **UP ≥ +1%**, **DOWN ≤ -1%**, **NEUTRAL otherwise**.
-- The legacy historical baseline uses RSI14, EMA20 and EMA50. The new current-condition heuristic also uses MACD, volume and eligible recent news; it is not the same rule as this baseline.
-- Volume spike = closed hourly volume ≥ 1.8 × average of previous 20 closed candles.
-- Strong bullish = Real_Adoption + bullish technical + volume spike.
-- Fake pump warning = Hype_Speculation + RSI > 70.
-- Bearish = Negative_FUD + bearish technical.
-- Otherwise neutral.
-- The news backtest joins articles to the *most recent completed candle* within two hours, never to a future candle. The entry-price approximation may be off by as much as an hour.
-- Daily grouping limits correlated/overlapping signals, but does not eliminate dependence.
-- Rule-win percentages and future UP/DOWN/NEUTRAL percentages are *descriptive historical frequencies*, not calibrated forecast probabilities.
-- A displayed label confidence is classifier certainty, **not truth verification**.
+### Step 3: Install Dependencies
 
-## Real-world ML improvements for lecturer discussion
+```powershell
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
 
-Collect several thousand REAL, manually verified and consistently labeled published
-headlines with source/time metadata; separate news authenticity from news-topic categories;
-use time-based train/test splits rather than random splits; train baseline and DistilBERT;
-compare macro F1, calibration, false-pump precision and meaningful event backtests;
-repeat with out-of-sample rolling windows; compare against simple price-only baselines.
+### Step 4: Configure Optional Environment Variables
 
-## API reference
+Review `.env.example`.
 
-- Binance read-only endpoint: `https://data-api.binance.vision/api/v3/ticker/24hr?symbol=XRPUSDT`
-- Binance 1h candles: `https://data-api.binance.vision/api/v3/klines?symbol=XRPUSDT&interval=1h&limit=100`
-- CryptoPanic documentation: `https://cryptopanic.com/developers/api/`
-- Streamlit fragments: `https://docs.streamlit.io/develop/api-reference/execution-flow/st.fragment`
+Create a local `.env` file only if a configured news source or optional feature requires credentials.
 
-## NEW: Real news training (upgrade)
+Never upload real API keys, passwords, or tokens to GitHub.
 
-For improved provisional classification, separate Silver/Gold datasets and a
-standalone Streamlit batch review interface, see
-[RESEARCH_REVIEW_README.md](RESEARCH_REVIEW_README.md).
-Run `python research_workflow.py`, then
-`streamlit run review_research_app.py --server.port 8502 --server.address 127.0.0.1`.
+### Step 5: Start the Main Dashboard
 
-For resumable multi-source collection of 300–500 real headlines, see
-[MULTISOURCE_NEWS_README.md](MULTISOURCE_NEWS_README.md). Run
-`python collect_multisource_news.py --target 400 --days 84 --max-requests 65`.
-The original 53-row dataset and reviews remain separate and preserved.
+```powershell
+python -m streamlit run app.py --server.port 8501
+```
 
-For automatic provisional classification, batch review reports and protected
-chronological training preparation, see [BATCH_LABELING_README.md](BATCH_LABELING_README.md).
-Run `python ai_labeling.py batch`, then `python prepare_real_training.py`.
+Open:
 
-For AI-assisted suggestions and keyboard review, see
-[AI_LABELING_README.md](AI_LABELING_README.md). Suggestions stay separate from
-human labels and are never used directly as evaluation ground truth.
+http://localhost:8501
 
-Read **`REAL_DATA_UPGRADE_README.md`** for the step-by-step beginner guide.
-Use `collect_real_news.py`, `label_real_news.py`, `train_real_model.py`,
-`evaluate_real_signals.py`. Your synthetic baseline remains unchanged.
-Choose the real trained classifier using `NEWS_TFIDF_MODEL=real` in `.env`.
-Do not interpret headline accuracy as predictive financial performance.
+Press `Ctrl + C` in the terminal to stop the application.
+
+### Optional: Start the News Research Review App
+
+```powershell
+python -m streamlit run review_research_app.py --server.port 8502
+```
+
+Open:
+
+http://localhost:8502
+
+Some research features require datasets or model artifacts that are generated locally and not included in the repository.
+
+Opening the dashboard does not automatically retrain the models.
+
+## Research Methodology
+
+The project follows an experimental data science workflow:
+
+1. Data collection from market and news sources.
+2. Data cleaning and validation.
+3. Exploratory data analysis.
+4. Technical feature engineering.
+5. NLP-based news categorization.
+6. Machine learning model development.
+7. Chronological evaluation and baseline comparison.
+8. Visualization and interpretation.
+9. Virtual paper trading observations.
+
+### NLP Research
+
+The initial NLP baseline uses 200 synthetic teaching headlines.
+
+Synthetic training performance should not be treated as real-world news classification accuracy.
+
+Additional workflows collect genuine published news and maintain separate human-reviewed and AI-provisional labels.
+
+### Historical Evaluation
+
+The project examines historical XRP price movements and compares experimental models against baseline approaches.
+
+The older 24-hour research uses the following outcome definitions:
+
+- UP: return greater than or equal to +1%.
+- DOWN: return less than or equal to -1%.
+- NEUTRAL: otherwise.
+
+The more recent one-hour model is a separate research experiment.
+
+Historical results do not guarantee future performance.
+
+## Timezone Management
+
+The dashboard displays timestamps using:
+
+**Asia/Colombo (UTC+05:30)**
+
+Internally, market data and research timestamps use UTC where appropriate.
+
+This separation helps maintain consistent historical calculations and readable local timestamps.
+
+## Testing
+
+The project contains automated tests for its main research and dashboard components.
+
+Run:
+
+```powershell
+python -m pytest -q
+```
+
+A previous local development report recorded 262 passing tests after an update to the news pipeline.
+
+This is a historical development result. The current repository version should be tested again before claiming the same result.
+
+## Data Sources and Limitations
+
+- Public market data can be delayed or unavailable.
+- News feeds can fail, change, or impose rate limits.
+- News publication times and collection times are not necessarily identical.
+- News classification does not establish whether a claim is true.
+- Historical model accuracy may not generalize to new market conditions.
+- Experimental direction labels are not guaranteed forecasts.
+- Paper trading results are simulated and may differ from real-world outcomes.
+- Some locally generated files are intentionally excluded from version control.
+
+Third-party datasets and article content should only be redistributed where permitted.
+
+## Future Improvements
+
+Potential research improvements include:
+
+- Larger verified real-news datasets.
+- More robust chronological and forward-period validation.
+- Improved model calibration.
+- Detailed performance monitoring.
+- Expanded explainable machine learning analysis.
+- Better experimental reporting and reproducibility.
+- Improved interactive dashboard documentation.
+
+## Additional Documentation
+
+- [Market Intelligence](MARKET_INTELLIGENCE_README.md)
+- [Live News](LIVE_NEWS_README.md)
+- [One-Hour Research](ONE_HOUR_RESEARCH_README.md)
+- [24-Hour Trend Research](TREND_RESEARCH_README.md)
+- [Paper Trading](PAPER_TRADING_README.md)
+- [Research Review](RESEARCH_REVIEW_README.md)
+- [Multi-Source News](MULTISOURCE_NEWS_README.md)
+
+## Project Status
+
+**Active Data Science Research Project**
+
+The project continues to evolve through market-data analysis, NLP research, experimental machine learning, and dashboard development.
+
+## Disclaimer
+
+This software is intended for educational research and demonstration.
+
+It is not a financial advisory service, an automated trading system, or a source of verified price predictions.
+
+All paper-trading activity uses simulated funds.
+
+---
+
+**Developed as a personal Data Science and Machine Learning project.**
